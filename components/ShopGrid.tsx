@@ -6,7 +6,7 @@ import ProductCard from "./ProductCard";
 
 export default function ShopGrid() {
   const [filter, setFilter] = useState("Tutti");
-  const filters = ["Tutti", "Uomo", "Donna", "Completi", "T-Shirt"];
+  const filters = ["Tutti", "Uomo", "Donna", "Completi", "T-Shirt", "Cappellini", "Abaya & Couture"];
 
   const shown =
     filter === "Tutti"

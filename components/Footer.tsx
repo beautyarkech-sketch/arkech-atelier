@@ -182,6 +182,12 @@ export default function Footer() {
               <Link href="/collections?cat=t-shirt">T-Shirt Itri Cotone Bio</Link>
             </li>
             <li>
+              <Link href="/collections?cat=cappellini">Cappellini Distressed Azar</Link>
+            </li>
+            <li>
+              <Link href="/collections?cat=couture">Haute Couture &amp; Abaya</Link>
+            </li>
+            <li>
               <Link href="/collections">Tutte le Creazioni in Serie Limitata</Link>
             </li>
             <li>

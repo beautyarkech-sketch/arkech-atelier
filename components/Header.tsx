@@ -193,6 +193,14 @@ export default function Header() {
             Completi
           </Link>
           <Link
+            href="/collections?cat=cappellini"
+            className={`nav-link ${
+              pathname.includes("cat=cappellini") ? "active" : ""
+            }`}
+          >
+            Cappellini
+          </Link>
+          <Link
             href="/collections"
             className={`nav-link ${
               pathname === "/collections" && !pathname.includes("cat=")
@@ -285,7 +293,7 @@ export default function Header() {
             <Search size={18} className="search-icon-inside" />
             <input
               type="text"
-              placeholder="Cerca felpe oversize, completi, t-shirt, Rebirth..."
+              placeholder="Cerca completi oversize, cappellini, abaya, Rebirth..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               autoFocus
@@ -530,6 +538,18 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Completi Oversize
+            </Link>
+            <Link
+              href="/collections?cat=cappellini"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Cappellini &amp; Accessori
+            </Link>
+            <Link
+              href="/collections?cat=couture"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Haute Couture &amp; Abaya
             </Link>
             <Link href="/collections" onClick={() => setMobileMenuOpen(false)}>
               Tutte le Collezioni

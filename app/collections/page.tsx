@@ -56,6 +56,22 @@ const COLLECTION_CARDS = [
     link: "/produit/azar-track-black-uomo",
     category: "Completi",
   },
+  {
+    id: "cappellini",
+    tag: "CAPPELLINI",
+    title: "Azar Distressed Cap",
+    image: "/images/products/IMG_0670.JPEG",
+    link: "/produit/azar-distressed-cap-black",
+    category: "Cappellini",
+  },
+  {
+    id: "couture",
+    tag: "HAUTE COUTURE",
+    title: "Abaya & Kimono Seta",
+    image: "/images/products/IMG_0796.JPEG",
+    link: "/produit/abaya-rebirth-seta-nera",
+    category: "Abaya & Couture",
+  },
 ];
 
 function CollectionsContent() {
@@ -71,6 +87,8 @@ function CollectionsContent() {
       else if (lower === "donna" || lower === "femme") setActiveFilter("Donna");
       else if (lower === "completi") setActiveFilter("Completi");
       else if (lower === "t-shirt" || lower === "tshirt" || lower === "tshirts") setActiveFilter("T-Shirt");
+      else if (lower === "cappellini" || lower === "accessori") setActiveFilter("Cappellini");
+      else if (lower === "couture" || lower === "abaya") setActiveFilter("Abaya & Couture");
     }
   }, [catParam]);
 
@@ -95,7 +113,7 @@ function CollectionsContent() {
 
         {/* Filter Pills */}
         <div className="collections-filter-pills">
-          {["Tutti", "Uomo", "Donna", "Completi", "T-Shirt"].map((filter) => (
+          {["Tutti", "Uomo", "Donna", "Completi", "T-Shirt", "Cappellini", "Abaya & Couture"].map((filter) => (
             <button
               key={filter}
               type="button"
