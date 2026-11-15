@@ -33,6 +33,22 @@ export default async function Page({
       title: "T-SHIRT REBIRTH",
       filter: (p) => p.category === "T-Shirt",
     },
+    cappellini: {
+      title: "CAPPELLINI AZAR DISTRESSED",
+      filter: (p) => p.category === "Cappellini",
+    },
+    accessori: {
+      title: "ACCESSORI & CAPPELLINI",
+      filter: (p) => p.category === "Cappellini",
+    },
+    couture: {
+      title: "HAUTE COUTURE & ABAYA",
+      filter: (p) => p.category === "Abaya & Couture",
+    },
+    abaya: {
+      title: "ABAYA & KIMONO COUTURE",
+      filter: (p) => p.category === "Abaya & Couture",
+    },
     rebirth: {
       title: "REBIRTH COLLECTION",
       filter: () => true,
