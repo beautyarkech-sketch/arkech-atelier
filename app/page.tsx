@@ -88,7 +88,7 @@ const HERO_SLIDES = [
     tagline: "DISTINGUERSI ATTRAVERSO I DETTAGLI",
     image: "/images/products/IMG_0764.JPEG",
     lookName: "Azar Track Completo Nero",
-    lookPrice: "109,98 €",
+    lookPrice: "119,98 €",
     lookThumb: "/images/products/IMG_0764.JPEG",
   },
   {
