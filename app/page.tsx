@@ -42,7 +42,7 @@ const HERO_SLIDES = [
     tagline: "NOT MADE FOR EVERYONE. MADE FOR YOU.",
     image: "/images/products/IMG_0761.JPEG",
     lookName: "Tafukt Completo Hoodie Grigio",
-    lookPrice: "175 €",
+    lookPrice: "109,98 €",
     lookThumb: "/images/products/IMG_0761.JPEG",
   },
   {
@@ -65,7 +65,7 @@ const HERO_SLIDES = [
     tagline: "EQUILIBRIO TRA COMFORT E IDENTITÀ",
     image: "/images/products/IMG_0749.JPEG",
     lookName: "Tafukt Completo Hoodie Nero",
-    lookPrice: "175 €",
+    lookPrice: "109,98 €",
     lookThumb: "/images/products/IMG_0749.JPEG",
   },
   {
@@ -88,7 +88,7 @@ const HERO_SLIDES = [
     tagline: "DISTINGUERSI ATTRAVERSO I DETTAGLI",
     image: "/images/products/IMG_0764.JPEG",
     lookName: "Azar Track Completo Nero",
-    lookPrice: "185 €",
+    lookPrice: "109,98 €",
     lookThumb: "/images/products/IMG_0764.JPEG",
   },
   {
@@ -111,7 +111,7 @@ const HERO_SLIDES = [
     tagline: "ESPRIMI LA TUA LIBERTÀ",
     image: "/images/products/IMG_0913.JPEG",
     lookName: "Tafukt Completo Donna Nero",
-    lookPrice: "175 €",
+    lookPrice: "109,98 €",
     lookThumb: "/images/products/IMG_0913.JPEG",
   },
 ];

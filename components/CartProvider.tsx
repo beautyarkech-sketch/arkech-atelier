@@ -33,7 +33,7 @@ const CartContext = createContext<CartContextType | null>(null);
 
 const DEFAULT_CART_ITEMS: CartItem[] = [
   {
-    product: products[0], // Tafukt Completo Hoodie Grigio (175 €)
+    product: products[0], // Tafukt Completo Hoodie Grigio (109,98 €)
     size: "L",
     qty: 1,
   },
@@ -106,14 +106,19 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const formatPrice = (priceInEUR: number): string => {
     const { rate } = RATES[currency];
-    const converted = Math.round(priceInEUR * rate);
+    const converted = priceInEUR * rate;
+    const hasDecimals = converted % 1 !== 0;
+    const options = hasDecimals
+      ? { minimumFractionDigits: 2, maximumFractionDigits: 2 }
+      : { minimumFractionDigits: 0, maximumFractionDigits: 0 };
+
     if (currency === "EUR") {
-      return `${converted.toLocaleString("it-IT")} €`;
+      return `${converted.toLocaleString("it-IT", options)} €`;
     }
     if (currency === "MAD") {
-      return `${converted.toLocaleString("it-IT")} MAD`;
+      return `${converted.toLocaleString("it-IT", options)} MAD`;
     }
-    return `$${converted.toLocaleString("en-US")}`;
+    return `$${converted.toLocaleString("en-US", options)}`;
   };
 
   const value = useMemo(
