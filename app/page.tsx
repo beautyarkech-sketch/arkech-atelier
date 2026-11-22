@@ -40,10 +40,10 @@ const HERO_SLIDES = [
     secondaryCtaText: "COLLEZIONE UOMO",
     secondaryCtaLink: "/collections?cat=uomo",
     tagline: "NOT MADE FOR EVERYONE. MADE FOR YOU.",
-    image: "/images/products/IMG_0761.JPEG",
+    image: "/images/products/IMG_0749.JPEG",
     lookName: "Tafukt Completo Hoodie Grigio",
     lookPrice: "109,98 €",
-    lookThumb: "/images/products/IMG_0761.JPEG",
+    lookThumb: "/images/products/IMG_0749.JPEG",
   },
   {
     id: 2,
@@ -63,10 +63,10 @@ const HERO_SLIDES = [
     secondaryCtaText: "TUTTI I COMPLETI",
     secondaryCtaLink: "/collections?cat=completi",
     tagline: "EQUILIBRIO TRA COMFORT E IDENTITÀ",
-    image: "/images/products/IMG_0749.JPEG",
+    image: "/images/products/IMG_0761.JPEG",
     lookName: "Tafukt Completo Hoodie Nero",
     lookPrice: "109,98 €",
-    lookThumb: "/images/products/IMG_0749.JPEG",
+    lookThumb: "/images/products/IMG_0761.JPEG",
   },
   {
     id: 3,
@@ -122,7 +122,7 @@ const COLLECTION_HIGHLIGHTS = [
     tag: "COMPLETI",
     title: "Tafukt & Azar Track",
     link: "/collections?cat=completi",
-    image: "/images/products/IMG_0749.JPEG",
+    image: "/images/products/IMG_0761.JPEG",
   },
   {
     id: "donna",
@@ -136,7 +136,7 @@ const COLLECTION_HIGHLIGHTS = [
     tag: "UOMO",
     title: "Rebirth Streetwear",
     link: "/collections?cat=uomo",
-    image: "/images/products/IMG_0761.JPEG",
+    image: "/images/products/IMG_0749.JPEG",
   },
   {
     id: "tshirts",
